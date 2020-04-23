@@ -1,0 +1,14 @@
+body {
+  min-height: 150vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#e7b4e3), to(purple));
+  background-image: linear-gradient(white, #e7b4e3, purple);
+}
+
+nav {
+  background-color: purple;
+}
+
+footer {
+  background-color: purple;
+}
+/*# sourceMappingURL=style.css.map */
