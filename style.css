@@ -1,14 +1,22 @@
 body {
-  min-height: 150vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#e7b4e3), to(purple));
-  background-image: linear-gradient(white, #e7b4e3, purple);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c4a287), color-stop(#ab4e68), to(#533745));
+  background-image: linear-gradient(#c4a287, #ab4e68, #533745);
 }
 
 nav {
-  background-color: purple;
+  background-color: #533745;
 }
 
 footer {
-  background-color: purple;
+  background-color: #533745;
+  min-height: 200px;
+}
+
+.svgnav {
+  margin-top: -20px;
+}
+
+.svgfoot {
+  margin-bottom: -10px;
 }
 /*# sourceMappingURL=style.css.map */
