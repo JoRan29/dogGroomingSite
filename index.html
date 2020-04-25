@@ -16,13 +16,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
-
     <title>Dog Grooming Website!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#"
-        ><span id="logo">Dog Grooming</span
+        ><span id="logo text-light">Dog Grooming</span
         ><img
           width="50px"
           src="https://i.ya-webdesign.com/images/dog-png-icon-15.png"
@@ -58,7 +58,12 @@
           </li>
         </ul>
       </div>
+      <!-- Svg Img -->
+      <div class="d-sm-none d-md-block" id="topimg">
+        <img width="200px" src="./pics/undraw_walk_dreaming_u58a.svg" alt="" />
+      </div>
     </nav>
+    <!-- Svg Element -->
     <div class="svgnav">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
         <path
@@ -68,11 +73,12 @@
         ></path>
       </svg>
     </div>
+    <!-- About Us Section -->
     <div class="container-fluid">
       <main>
         <div class="row mx-4">
           <div class="col-md-8">
-            <h2 class="my-5" id="aboutUs">About Us</h2>
+            <h2 class="my-5 text-light" id="aboutUs">About Us</h2>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
               rem harum sint veritatis! Beatae, accusamus. Soluta atque
@@ -91,9 +97,9 @@
         </div>
       </main>
     </div>
+    <!-- Services Section -->
     <div class="container-fluid">
-      <h2 class="my-5" id="services">Services</h2>
-
+      <h2 class="my-5 text-light" id="services">Services</h2>
       <div class="row mx-4">
         <section class="col-md-6">
           <ul class="list-group mb-2">
@@ -115,9 +121,10 @@
         </section>
       </div>
     </div>
-    <div class="container-fluid">
+    <!-- Contact Form -->
+    <div class="container-fluid p-5">
       <form>
-        <h2 class="my-5" id="contact">Contact Us</h2>
+        <h2 class="my-5 text-light" id="contact">Contact Us</h2>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input
@@ -149,9 +156,10 @@
             rows="3"
           ></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-secondary">Submit</button>
       </form>
     </div>
+    <!-- Svg Element -->
     <div class="svgfoot">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -161,17 +169,47 @@
         ></path>
       </svg>
     </div>
+    <!-- Footer -->
     <footer class="container-fluid bottom">
       <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
         <div class="col-md-4">
+          <img
+            class="d-sm-none d-md-block mb-5"
+            width="400px"
+            src="./pics/undraw_Cautious_dog_q83f.svg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-4 text-center mb-5">
+          <img
+            width="60px"
+            class="float-left"
+            src="./pics/fb-icon.png"
+            alt=""
+          />
+          <img width="60px" src="./pics/insta-icon.png" alt="" />
+          <img
+            width="60px"
+            class="float-right"
+            src="./pics/viber-icon.png"
+            alt=""
+          />
+        </div>
+        <div class="col-md-4 text-light text-center">
           <p>Phone Number: +381 65 000 000</p>
           <p>Adress: Main Str. 23</p>
-          <p>Social Media</p>
+          <p>Lorem, ipsum.</p>
         </div>
       </div>
     </footer>
+    <!-- Copyright -->
+    <div class="container-fluid">
+      <div class="row font-weight-light text-light">
+        <div class="col">
+          <p>Copyright © 2020 Jo Ran</p>
+        </div>
+      </div>
+    </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
