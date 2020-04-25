@@ -6,4 +6,5 @@ Dog Grooming Website - Bootstrap 4, Scss
   1.3 added main section <br>
   1.4 added svg footer and nav elements <br>
   1.5 added form <br>
+  1.6 added icons and svg images <br>
   
