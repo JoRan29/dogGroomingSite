@@ -21,3 +21,19 @@ footer {
 .copyright {
   background-color: #533745;
 }
+
+.hover10 {
+  img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  img:hover {
+    -webkit-filter: grayscale(70%) blur(2px);
+    filter: grayscale(70%) blur(2px);
+  }
+  .card-title:hover {
+    color: gray;
+  }
+}

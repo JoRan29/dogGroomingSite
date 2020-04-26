@@ -23,4 +23,20 @@ footer {
 .copyright {
   background-color: #533745;
 }
+
+.hover10 img {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.hover10 img:hover {
+  -webkit-filter: grayscale(70%) blur(2px);
+  filter: grayscale(70%) blur(2px);
+}
+
+.hover10 .card-title:hover {
+  color: gray;
+}
 /*# sourceMappingURL=style.css.map */
