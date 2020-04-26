@@ -8,3 +8,6 @@ Dog Grooming Website - Bootstrap 4, Scss
    1.5 added form <br>
    1.6 added icons and svg images <br>
    1.7 added cards, removed badges<br>
+2. style scss
+   2.1 added hover effects - grayscale and b&w on card imgs
+   2.2 added hover opacity effect - social media buttons

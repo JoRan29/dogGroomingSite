@@ -22,7 +22,7 @@ footer {
   background-color: #533745;
 }
 
-.hover10 {
+.hover1 {
   img {
     -webkit-filter: grayscale(0) blur(0);
     filter: grayscale(0) blur(0);
@@ -35,5 +35,16 @@ footer {
   }
   .card-title:hover {
     color: gray;
+  }
+}
+
+.hover2 {
+  img {
+    opacity: 1;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  img:hover {
+    opacity: 0.5;
   }
 }

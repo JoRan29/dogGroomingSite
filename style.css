@@ -24,19 +24,29 @@ footer {
   background-color: #533745;
 }
 
-.hover10 img {
+.hover1 img {
   -webkit-filter: grayscale(0) blur(0);
   filter: grayscale(0) blur(0);
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
 
-.hover10 img:hover {
+.hover1 img:hover {
   -webkit-filter: grayscale(70%) blur(2px);
   filter: grayscale(70%) blur(2px);
 }
 
-.hover10 .card-title:hover {
+.hover1 .card-title:hover {
   color: gray;
+}
+
+.hover2 img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.hover2 img:hover {
+  opacity: 0.5;
 }
 /*# sourceMappingURL=style.css.map */
