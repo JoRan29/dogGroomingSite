@@ -11,3 +11,5 @@ Dog Grooming Website - Bootstrap 4, Scss
 2. style scss
    2.1 added hover effects - grayscale and b&w on card imgs
    2.2 added hover opacity effect - social media buttons
+   2.3 added additional svg dividers
+   2.4 added carousel 

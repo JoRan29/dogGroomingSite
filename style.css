@@ -18,10 +18,20 @@ footer {
 
 .svgfoot {
   margin-bottom: -20px;
+  margin-top: -140px;
 }
 
 .copyright {
   background-color: #533745;
+}
+
+.svgtop {
+  margin-top: -27px;
+}
+
+.svgbot {
+  margin-top: -10px;
+  margin-bottom: -150px;
 }
 
 .hover1 img {
@@ -48,5 +58,9 @@ footer {
 
 .hover2 img:hover {
   opacity: 0.5;
+}
+
+.d {
+  max-width: 550px;
 }
 /*# sourceMappingURL=style.css.map */
