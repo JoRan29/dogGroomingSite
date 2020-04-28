@@ -1,4 +1,5 @@
 body {
+  position: relative;
   background-image: linear-gradient(#c4a287, #ab4e68, #533745);
 }
 
@@ -65,4 +66,18 @@ footer {
 
 #aboutUs {
   color: #533745;
+}
+
+.navpic {
+  position: absolute;
+  top: 2%;
+  left: 80%;
+  z-index: 1000;
+}
+
+.botpic {
+  position: absolute;
+  bottom: 5%;
+  z-index: 999;
+  left: 5%;
 }
