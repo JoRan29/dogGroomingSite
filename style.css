@@ -72,8 +72,21 @@ footer {
 .navpic {
   position: absolute;
   top: 2%;
-  left: 80%;
+  left: 78%;
   z-index: 1000;
+}
+
+.navpic2 {
+  position: absolute;
+  top: 4%;
+  left: 61%;
+  z-index: 998;
+}
+
+.navpic3 {
+  position: absolute;
+  top: 3.5%;
+  left: 49%;
 }
 
 .botpic {
