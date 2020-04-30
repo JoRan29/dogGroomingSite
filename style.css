@@ -27,7 +27,7 @@ footer {
 }
 
 .svgtop {
-  margin-top: -27px;
+  margin-top: -90px;
 }
 
 .svgbot {
@@ -87,6 +87,30 @@ footer {
   position: absolute;
   top: 3.5%;
   left: 49%;
+}
+
+.midpic {
+  position: absolute;
+  top: 23%;
+  left: 3%;
+}
+
+.midpic2 {
+  position: absolute;
+  top: 25%;
+  left: 26%;
+}
+
+.picbot {
+  position: absolute;
+  left: 2%;
+  bottom: 31%;
+}
+
+.picbot2 {
+  position: absolute;
+  right: -5%;
+  bottom: 28%;
 }
 
 .botpic {
