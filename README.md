@@ -13,3 +13,4 @@ Dog Grooming Website - Bootstrap 4, Scss
    2.2 added hover opacity effect - social media buttons <br>
    2.3 added additional svg dividers <br>
    2.4 added carousel <br>
+   2.5 added aditional svg icons in nav, footer and main section
